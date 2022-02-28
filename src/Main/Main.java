@@ -1,4 +1,7 @@
+package Main;
 import java.util.Scanner;
+
+
 
 public class Main {
 
@@ -8,6 +11,7 @@ public class Main {
 		Scanner teclado = new Scanner(System.in);
 		int numero = 0;
 		
+		
 		do {
 			menu();
 			numero= teclado.nextInt();
@@ -15,9 +19,14 @@ public class Main {
 			switch(numero) {
 			
 			case 1:
+				//Ejercicio1(teclado);
+
+
+				Ejercicio1.Lanzar();
+				
+				
 				
 				break;
-				
 			case 2:
 				
 				break;
