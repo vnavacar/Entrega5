@@ -28,9 +28,8 @@ public class Ejercicio2 {
 				if(array.get(j)==i) {
 					cuenta++;
 				}
-				
-				
 			}
+			System.out.println("Hay "+cuenta+" instancias de:"+i+" en el array.");
 			
 		}
 		

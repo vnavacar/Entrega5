@@ -28,7 +28,7 @@ public class Main {
 				
 				break;
 			case 2:
-				
+				Ejercicio2.Lanzar(teclado);
 				break;
 			case 3:
 				
