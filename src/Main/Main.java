@@ -19,19 +19,13 @@ public class Main {
 			switch(numero) {
 			
 			case 1:
-				//Ejercicio1(teclado);
-
-
-				Ejercicio1.Lanzar();
-				
-				
-				
+				Ejercicio1.Lanzar();			
 				break;
 			case 2:
 				Ejercicio2.Lanzar(teclado);
 				break;
 			case 3:
-				
+				Ejercicio3.Lanzar(teclado);
 				break;
 			case 4:
 				
