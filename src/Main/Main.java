@@ -28,7 +28,7 @@ public class Main {
 				Ejercicio3.Lanzar(teclado);
 				break;
 			case 4:
-				
+				Ejercicio4.Lanzar(teclado);
 				break;
 			case 5:
 				
