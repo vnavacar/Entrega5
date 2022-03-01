@@ -40,7 +40,7 @@ public class Main {
 				Ejercicio7.Lanzar();
 				break;
 			case 8:
-				
+				Ejercicio8.Lanzar(teclado);
 				break;
 			case 9:
 				
