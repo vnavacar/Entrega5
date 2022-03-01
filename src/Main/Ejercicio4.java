@@ -28,10 +28,13 @@ public class Ejercicio4 {
 					numero++;
 				}
 			}
-			porcentaje = ((numero/array.size())*100);
+			System.out.println(array.size()+"<-size numero->"+numero); // para debugear, quita antes de entregar
+			//porcentaje = numero/array.size()*100;
+			porcentaje =((numero)/(array.size()))*100;
+			System.out.println(porcentaje);//para debug
 			System.out.println("Porcentaje de votos del candidato "+i+ " son:"+porcentaje+"%" );
 			numero =0;
-			
+
 			}
 		
 	}
