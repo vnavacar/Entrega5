@@ -18,7 +18,7 @@ public class Ejercicio4 {
 			}
 			
 		}while(numero != 68753421);
-		System.out.println(array.toString()); // para debugear, quita antes de entregar
+		//System.out.println(array.toString()); // para debugear, quita antes de entregar
 		System.out.println("Resultados:");
 		numero =0;
 		for(int i=1;i<5;i++) {
@@ -28,10 +28,10 @@ public class Ejercicio4 {
 					numero++;
 				}
 			}
-			System.out.println(array.size()+"<-size numero->"+numero); // para debugear, quita antes de entregar
+			//System.out.println(array.size()+"<-size numero->"+numero); // para debugear, quita antes de entregar
 			//porcentaje = numero/array.size()*100;
-			porcentaje =((numero)/(array.size()))*100;
-			System.out.println(porcentaje);//para debug
+			porcentaje =(((float)(numero))/((float)(array.size())))*100;
+			//System.out.println(porcentaje);//para debug
 			System.out.println("Porcentaje de votos del candidato "+i+ " son:"+porcentaje+"%" );
 			numero =0;
 
