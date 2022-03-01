@@ -1,7 +1,7 @@
 package Main;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Arrays;
+
 
 public class Ejercicio8 {
 	public static void Lanzar(Scanner teclado) {
