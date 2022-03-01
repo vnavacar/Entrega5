@@ -37,7 +37,7 @@ public class Main {
 				
 				break;
 			case 7:
-				
+				Ejercicio7.Lanzar();
 				break;
 			case 8:
 				
