@@ -6,12 +6,12 @@ import java.util.Scanner;
 
 public class Ejercicio6{
     public static void Lanzar(Scanner teclado){
-       
+       System.out.println("Lo que hace el código original es asignar valores a una matriz bidimensional de 3x3");
         int eleccion = 0;
         while (true) {
             System.out.println("1: Ver original");
             System.out.println("2: Ver apartado 1");
-            System.out.println("3; Ver apartado 2");
+            System.out.println("3: Ver apartado 2");
             try {
                 eleccion = teclado.nextInt();
             } catch (InputMismatchException e) {
