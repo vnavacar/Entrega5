@@ -11,7 +11,7 @@ public class Main {
 		Scanner teclado = new Scanner(System.in);
 		int numero = 0;
 		
-		
+	
 		do {
 			menu();
 			numero= teclado.nextInt();
@@ -33,19 +33,19 @@ public class Main {
 			case 5:
 				Ejercicio5.Lanzar(teclado);
 				break;
-			case 6:
+			case 6: Ejercicio6.Lanzar(teclado);
 				
 				break;
 			case 7:
 				Ejercicio7.Lanzar();
 				break;
-			case 8:
-				Ejercicio8.Lanzar(teclado);
+			case 8: Ejercicio8.Lanzar(teclado);
+				
 				break;
-			case 9:
-				Ejercicio9.Lanzar(teclado);
+			case 9: Ejercicio9.Lanzar(teclado);
+				
 				break;
-			case 10:
+			case 10: Ejercicio10.Lanzar(teclado);
 				
 				break;
 			case 11:
